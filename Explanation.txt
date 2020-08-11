@@ -1,0 +1,54 @@
+You are given with a linked list of positive integers, in a incresing order and a number k,
+you have to find the kth positive integer that is missing from this array.
+
+Input Description:
+First line contains n and k, (1<n,k<1000)
+Second line contains n elements of integers in a linked list.
+
+Outpur description:
+Print the kth positive integer that is missing from this array
+
+Sample Input:
+5 5
+2 3 4 6 11
+
+Sample Output:
+9
+
+Explanation:
+The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9.
+
+Sample Input:
+6 4
+1 3 45 67 68 69
+
+Sample Output:
+6
+
+Sample Input:
+4 2
+1 2 4 6
+
+Sample Output:
+5
+
+Sample Input:
+5 7
+2 3 4 6 9
+
+Sample Output:
+12
+
+Sample Input:
+8 5
+2 3 5 6 8 9 12 15
+
+Sample Output:
+11
+
+Sample Input:
+3 2
+2 4 6
+
+Sample Ouput:
+3
